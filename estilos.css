@@ -4,10 +4,11 @@ body {
 }
 
 main {
-    margin: 70px;
+    margin: auto;
+    width: 70%;
     background-color: white;
-    opacity: 90%;
-    margin-top: 2px;
+    opacity: 95%;
+    padding: 4%;
 }
 
 nav {
@@ -146,8 +147,10 @@ p {
 #imgNewton {
     float: left;
     margin-left: 90px;
-    margin-right: 10px; 
+    margin-right: 10px;
     width: 250px;
+    box-shadow: 5px 5px 10px rgb(0 0 0/20%);
+	
 }
 
 iframe {
