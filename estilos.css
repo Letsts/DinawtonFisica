@@ -21,7 +21,7 @@ body {
 
 main {
     margin: auto;
-    width: 80%; /*----*/
+    width: 80%;
     background-color: white;
     opacity: 95%;
     padding: 4%;
@@ -56,7 +56,7 @@ a:hover {
 h1 {
     margin-top: 15px;
     text-align: center;
-    font-size: 530%;/*---*/
+    font-size: 530%;
     font-family: 'Georgia', serif; 
     color: orange;
 }
