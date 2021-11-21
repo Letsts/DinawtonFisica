@@ -3,12 +3,29 @@ body {
     background-size: cover;
 }
 
+@media (max-width: 1200px) {
+    html {
+        zoom: 50%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    
+    #topo-pagina nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
 main {
     margin: auto;
-    width: 70%;
+    width: 80%; /*----*/
     background-color: white;
     opacity: 95%;
     padding: 4%;
+
 }
 
 nav {
@@ -19,6 +36,8 @@ nav {
     text-align: center;
     padding: 2px;
     padding-bottom: 15px;   
+    margin-right: 6%;
+    margin-left: 6%;
 }
 
 a {
@@ -37,7 +56,7 @@ a:hover {
 h1 {
     margin-top: 15px;
     text-align: center;
-    font-size: 125px;;
+    font-size: 530%;/*---*/
     font-family: 'Georgia', serif; 
     color: orange;
 }
@@ -47,7 +66,7 @@ h2 {
     text-align: center;
     font-size: 30px;
     font-family: 'Glory', sans-serif;
-    color: #FF6262;
+    color:#FF6262;
 }
 
 #topo-pagina h2{
@@ -64,7 +83,7 @@ header ul {
     padding-left: 0;
     padding-top: 0.20em;
     margin-bottom: 0; 
-  }
+}
   
 header li {
     list-style: none;
@@ -126,10 +145,11 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 65%;
 }
 
 #imgs3 {
-    width: 400px;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -137,7 +157,7 @@ p {
 }
 
 #imgs4 {
-    width: 650px;
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -147,16 +167,16 @@ p {
 #imgNewton {
     float: left;
     margin-left: 90px;
-    margin-right: 10px;
+    margin-right: 10px; 
     width: 250px;
     box-shadow: 5px 5px 10px rgb(0 0 0/20%);
-	
 }
 
 iframe {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    width:60%;
 }
 
 .participantes{
