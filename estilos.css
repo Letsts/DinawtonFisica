@@ -215,10 +215,10 @@ thead, tfoot {
     border: 5px solid orange;
     border-radius: 60%;
     padding: 10px;
-    font-size: 35px;
+    font-size: 45px;
     width: 30px;
     height: 38px;
-    line-height: 1em;
+    line-height: 0.7em;
     bottom: 15px;
     right: 15px;
     text-align: center;
