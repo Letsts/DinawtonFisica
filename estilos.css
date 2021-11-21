@@ -169,11 +169,11 @@ table {
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
-    background-color: lightpink;
+    background-color: lightsalmon;
 }
 
 caption {
-    background-color : lightblue;
+    background-color : yellow;
 }
 
 caption {
@@ -185,12 +185,7 @@ td, th {
     font-size: 105%;
 }
 
-thead {
-    background-color: lightgreen;
-    border: 1px solid black;
-}
-
-tfoot {
-    background-color: lightsalmon;
+thead, tfoot {
+    background-color: orange;
     border: 1px solid black;
 }
