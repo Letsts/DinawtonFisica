@@ -209,3 +209,19 @@ thead, tfoot {
     background-color: orange;
     border: 1px solid black;
 }
+
+#voltar-para-topo {
+    background-color: #FF6262;
+    border: 5px solid orange;
+    border-radius: 60%;
+    padding: 10px;
+    font-size: 35px;
+    width: 30px;
+    height: 38px;
+    line-height: 1em;
+    bottom: 15px;
+    right: 15px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+}
